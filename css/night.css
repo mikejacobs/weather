@@ -1,0 +1,69 @@
+
+body{
+    background: #101010 url("../images/black.gif") left top repeat-y;
+    padding:0px;
+/*    background: #F2F2F2;*/
+
+}
+
+#left{
+    background:#000;
+}
+#temp{
+    color:#aaa;
+}
+#city{
+    color:#555;
+}
+#place{
+    color:#555;
+    border:1px solid #101010;
+}
+#place:hover{
+    border:1px solid #ccc;
+    background:#fff;
+}
+#place:focus{
+    background:#fff;
+}
+#scarf{
+    color:#fff !important;
+}
+#forecast{
+    color:#aaa;
+}
+#img{
+    background: #000 no-repeat center center;
+}
+.time{
+    color:#777;
+}
+.in{
+    color:#777;
+}
+
+#dd{
+    border-bottom:1px solid #777;
+}
+    li.now {
+        border: 1px solid #000; /* IE6 Bug */
+    }
+ul li a {
+	color: #777;
+	}
+ul li a:hover{
+    color:#000;
+    
+}
+
+.time:hover ul{ 
+    border-bottom: 1px solid #ccc;
+    	background: #fff; /* IE6 Bug */
+	
+} /* The magic */
+
+.time:hover ul li{
+    border: 1px solid #ccc; /* IE6 Bug */
+    
+	
+}
